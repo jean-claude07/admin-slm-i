@@ -46,7 +46,7 @@ export class Disposition extends Component {
             chauffeur = (
                 <>
                     <td>
-                        <img src={`http://localhost:4000/${this.props.chauffeur.photo.url}`} className="rounded-circle" width="50px" height="50px" />
+                        <img src={`http://apimanageur.herokuapp.com/${this.props.chauffeur.photo.url}`} className="rounded-circle" width="50px" height="50px" />
                     </td>
                     <td >{this.props.chauffeur.prenom} </td>
                     <td>{this.props.chauffeur.categorie_permis} </td>

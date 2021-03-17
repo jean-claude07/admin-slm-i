@@ -32,7 +32,7 @@ export class Recruteur_about extends Component {
                                 <div className="container">
                                     <div id="crop-avatar">
                                     
-                                        <img class="img-responsive" src={`http://localhost:4000/${image && image.url}`} alt="Avatar" title="Change the avatar" width="250px" />
+                                        <img class="img-responsive" src={`http://apimanageur.herokuapp.com/${image && image.url}`} alt="Avatar" title="Change the avatar" width="250px" />
                                     </div>
                                 </div>
                             </div>

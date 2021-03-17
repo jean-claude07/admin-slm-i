@@ -64,7 +64,7 @@ export class Admin extends Component {
                             let pdp;
                             if(admin.pdpadmin.url){
                                 pdp = (
-                                    <img  src={`http://localhost:4000/${admin && admin.pdpadmin.url}`} alt="" className="img-circle img-fluid" height="350px" width="500px"/>
+                                    <img  src={`http://apimanageur.herokuapp.com/${admin && admin.pdpadmin.url}`} alt="" className="img-circle img-fluid" height="350px" width="500px"/>
                                 )
                             }else{
                                 pdp = (

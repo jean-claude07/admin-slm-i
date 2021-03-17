@@ -16,7 +16,7 @@ export class Sidebar extends Component {
         }else{
             pdp = (
                 <>
-                <img  src={`http://localhost:4000/${admin && admin.pdpadmin.url}`} alt="image..." class="rounded-circle profile_img" width="100px" />
+                <img  src={`http://apimanageur.herokuapp.com/${admin && admin.pdpadmin.url}`} alt="image..." class="rounded-circle profile_img" width="100px" />
                 <span>🔴</span>
                 </>
             )

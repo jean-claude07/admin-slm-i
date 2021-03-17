@@ -34,7 +34,7 @@ export class Top_navigation extends Component {
         let pdp;
         if(this.props.data.pdpadmin){
             pdp = (
-                <img  src={`http://localhost:4000/${admin && admin.pdpadmin.url}`} width="100px" alt="..." class="rounded-circle profile_img" />
+                <img  src={`hhttp://apimanageur.herokuapp.com/${admin && admin.pdpadmin.url}`} width="100px" alt="..." class="rounded-circle profile_img" />
             )
         }else{
             pdp = (

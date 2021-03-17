@@ -36,17 +36,17 @@ export class Apropos extends Component {
                     <div class="col-md-12 col-sm-12 ">
                         <div class="col-md-7 col-sm-7 ">
                             <div class="product-image">
-                                <img src={`http://localhost:4000/${annonce.annoncephoto.url}`} />
+                                <img src={`http://apimanageur.herokuapp.com/${annonce.annoncephoto.url}`} />
                             </div>
                             <div class="product_gallery">
                                 <a style={this.state}>
-                                    <img src={`http://localhost:4000/${annonce.annoncephoto.url}`}  />
+                                    <img src={`http://apimanageur.herokuapp.com/${annonce.annoncephoto.url}`}  />
                                 </a>
                                 <a style={this.state}>
-                                    <img src={`http://localhost:4000/${annonce.annoncephoto.url}`} />
+                                    <img src={`http://apimanageur.herokuapp.com/${annonce.annoncephoto.url}`} />
                                 </a>
                                 <a style={this.state}>
-                                    <img src={`http://localhost:4000/${annonce.annoncephoto.url}`} />
+                                    <img src={`http://apimanageur.herokuapp.com/${annonce.annoncephoto.url}`} />
                                 </a>
                             </div>
                         </div>
