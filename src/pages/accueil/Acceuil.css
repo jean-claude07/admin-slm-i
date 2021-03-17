@@ -1,0 +1,15 @@
+.body{
+    width: 100%;
+   
+}
+
+.body .content {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+}
+.panel_toolbox {
+    float: left !important;
+    min-width: 70px;
+}

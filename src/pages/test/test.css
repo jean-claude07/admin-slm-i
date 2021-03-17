@@ -1,0 +1,24 @@
+#general{
+    
+    width: 80% !important;
+   padding: 82px 1px 52px 39px !important;
+}
+.test_panel {
+    position: relative;
+    width: 129% !important;
+    margin-bottom: 10px;
+    padding: 10px 17px;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #E6E9ED;
+    column-break-inside: avoid;
+    opacity: 1;
+    transition: all .2s ease;
+}
+#block-panel{
+  display: block;
+}
+.content_td{
+display: flex;
+justify-content: flex-start;
+}

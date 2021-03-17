@@ -1,0 +1,15 @@
+.total-side{
+    height: 100% !important;
+}
+@media (min-width: 768px) {
+.col-md-2 {
+    flex: 0 0 16.666667% !important;
+    max-width: 16.666667% !important;
+}
+}
+.left_co {
+    background: #2A3F54;
+    height: 900px !important;
+    position: fixed !important;
+     z-index: 999 !important; 
+}

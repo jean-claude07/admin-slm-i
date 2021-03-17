@@ -1,0 +1,27 @@
+.chartblock{
+    width: 50%;
+    display: flex;
+}
+
+.questionblock{
+    width: 50%;
+}
+
+.questionblock ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.questionblock li{
+    padding: 5px 0 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.questionblock p{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+    font-size: 15px;
+}
+
